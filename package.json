@@ -1,0 +1,35 @@
+{
+  "name": "primevue-image-theme",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.0.5",
+    "color.js": "^1.2.0",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.0.5",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@primevue/auto-import-resolver": "^4.0.5",
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "postcss": "^8.4.41",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.10",
+    "tailwindcss-primeui": "^0.3.4",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.3.1"
+  }
+}
