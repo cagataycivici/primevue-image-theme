@@ -47,7 +47,7 @@
                     <div class="flex flex-col gap-4">
                         <div class="flex flex-wrap justify-between gap-4">
                             <div class="flex items-center gap-4">
-                                <label for="in_primary">Primary</label>
+                                <label for="in_primary" class="block min-w-16">Primary</label>
                                 <input
                                     type="color"
                                     id="in_primary"
@@ -68,7 +68,7 @@
 
                         <div class="flex flex-wrap justify-between gap-4">
                             <div class="flex items-center gap-4">
-                                <label for="in_surface">Surface</label>
+                                <label for="in_surface" class="block min-w-16">Surface</label>
                                 <input
                                     type="color"
                                     id="in_surface"

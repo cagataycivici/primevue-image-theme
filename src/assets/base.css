@@ -1,0 +1,6 @@
+body {
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
