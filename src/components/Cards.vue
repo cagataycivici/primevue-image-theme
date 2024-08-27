@@ -139,25 +139,19 @@
                         <button
                             class="w-full flex items-center gap-2 text-color p-2 bg-transparent hover:bg-emphasis active:bg-surface-200 dark:active:bg-surface-700 cursor-pointer rounded-lg transition-all select-none"
                         >
-                            <i
-                                class="pi pi-envelope text-lg w-7 h-7 flex items-center justify-center"
-                            ></i>
+                            <i class="pi pi-envelope text-lg flex items-center justify-center"></i>
                             <div class="font-medium leading-normal flex-1 text-left">Messages</div>
                         </button>
                         <button
                             class="w-full flex items-center gap-2 text-color p-2 bg-transparent hover:bg-emphasis active:bg-surface-200 dark:active:bg-surface-700 cursor-pointer rounded-lg transition-all select-none"
                         >
-                            <i
-                                class="pi pi-cog text-lg w-7 h-7 flex items-center justify-center"
-                            ></i>
+                            <i class="pi pi-cog text-lg flex items-center justify-center"></i>
                             <div class="font-medium leading-normal flex-1 text-left">Settings</div>
                         </button>
                         <button
                             class="w-full flex items-center gap-2 text-color p-2 bg-transparent hover:bg-emphasis active:bg-surface-200 dark:active:bg-surface-700 cursor-pointer rounded-lg transition-all select-none"
                         >
-                            <i
-                                class="pi pi-sync text-lg w-7 h-7 flex items-center justify-center"
-                            ></i>
+                            <i class="pi pi-sync text-lg flex items-center justify-center"></i>
                             <div class="font-medium leading-normal flex-1 text-left">
                                 Switch Accounts
                             </div>
@@ -165,9 +159,7 @@
                         <button
                             class="w-full flex items-center gap-2 text-color p-2 bg-transparent hover:bg-emphasis active:bg-surface-200 dark:active:bg-surface-700 cursor-pointer rounded-lg transition-all select-none"
                         >
-                            <i
-                                class="pi pi-sign-in text-lg w-7 h-7 flex items-center justify-center"
-                            ></i>
+                            <i class="pi pi-sign-in text-lg flex items-center justify-center"></i>
                             <div class="font-medium leading-normal flex-1 text-left">Log out</div>
                         </button>
                     </div>
@@ -176,7 +168,7 @@
                         class="w-full flex items-center gap-2 text-color p-2 bg-transparent cursor-pointer rounded-lg transition-all select-none"
                     >
                         <i
-                            class="pi text-lg w-7 h-7 flex items-center justify-center"
+                            class="pi text-lg flex items-center justify-center"
                             :class="{
                                 'pi-moon': !darkMode,
                                 'pi-sun': darkMode
@@ -342,13 +334,13 @@
                                     @click="chooseCallback()"
                                 >
                                     <i class="pi pi-cloud-upload text-4xl text-color" />
-                                    <div class="text-sm text-color font-medium mt-2">
+                                    <div class="text-sm text-center font-medium mt-2">
                                         Click to upload
                                         <span class="text-muted-color">or and drop</span>
                                     </div>
                                     <p class="mt-2 mb-0 text-sm text-muted-color text-center">
                                         PDF, JPG, PNG, JPEG, DOC, CSV, XML, XMLX, XLS, XLSX (max
-                                        10MB)
+                                        1MB)
                                     </p>
                                 </div>
                             </template>
@@ -387,7 +379,6 @@
                                                 formatSize(file.size)
                                             }}</span>
                                             <div class="grow flex flex-col gap-2 justify-end">
-                                                <Badge value="Pending" severity="warning" />
                                                 <Button
                                                     icon="pi pi-times text-sm leading-none"
                                                     @click="
